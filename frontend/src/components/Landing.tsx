@@ -1,5 +1,7 @@
+import { useState } from "react"
 
 export const Landing = () => {
+  const [foundPlayer,setFoundPlayer] = useState(false)
   return (
     <div className="flex justify-evenly items-center h-screen">
       <img src={"chess-board.jpeg"} alt="chess-board" className="w-1/2"/>
