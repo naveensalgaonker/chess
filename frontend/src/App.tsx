@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Landing } from "./components/Landing";
-import Game from "./components/Game";
+import { Game } from "./components/Game";
 
 function App() {
 
