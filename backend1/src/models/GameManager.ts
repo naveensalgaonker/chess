@@ -30,7 +30,7 @@ export class GameManager {
   }
 
   private messageHandler(message: Message, socket: WebSocket) {
-    const { action, data } = message;
+    const { state:action, data } = message;
 
     // Debug: Check the incoming message
     console.log("Received Message:", message);

@@ -4,13 +4,13 @@ for BE websocket testing use the following url:
 Valid Payload
 Start Game
 {
-  "action": "init_game",
+  "state": "init_game",
   "data": ""
 }
 
 Move
 {
-  "action": "move",
+  "state": "move",
   "data": {
     "from" : "d2",
     "to":"d4"

@@ -8,7 +8,7 @@ export interface Move{
 }
 
 export interface Message {
-  action: string;
+  state: string;
   data: any;
 }
 
